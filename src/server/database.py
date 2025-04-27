@@ -47,7 +47,7 @@ class DatabaseHandler:
         # Parámetros:
         #   message: El mensaje a guardar
         #   client_ip: La dirección IP del cliente
-        # Retorna: Tupla (éxito, timestamp)
+        # Retorna: Tupla (exito, timestamp)
         try:
             # Obtener la fecha y hora actual
             timestamp = datetime.datetime.now()

@@ -71,7 +71,7 @@ class ChatClient:
             # Mostrar instrucciones al usuario
             print("Instrucciones:")
             print("- Escribe tus mensajes y presiona Enter para enviarlos")
-            print("- Escribe 'éxito' para salir")
+            print("- Escribe 'exito' para salir")
             print("-" * 50)
             
             # Bucle principal para enviar mensajes
@@ -80,7 +80,7 @@ class ChatClient:
                 message = input("Mensaje > ")
                 
                 # Verificar si el usuario quiere salir
-                if message.lower() == 'éxito':
+                if message.lower() == 'exito':
                     print("[+] ¡Hasta pronto!")
                     break
                 
